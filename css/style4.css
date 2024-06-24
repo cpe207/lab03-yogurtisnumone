@@ -51,9 +51,10 @@ header {
 }
 
 .card-myskills{
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    overflow: hidden;
     gap: 25px;
     margin-top: 200px;
 }
@@ -74,7 +75,17 @@ header {
 }
 
 .img-card2 img{
-    width: 300px;
+    width: 350px;
+    height: 350px;
+}
+
+.img-card3 img{
+    width: 350px;
+    height: 300px;
+}
+
+.img-card4 img{
+    width: 350px;
     height: 350px;
 }
 
