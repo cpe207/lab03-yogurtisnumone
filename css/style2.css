@@ -1,0 +1,117 @@
+body {
+    background-color: #E7E6E2;
+    margin: 0;
+}
+header {
+    font-family: "Kanit", sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 80px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-sizing: border-box;
+    background-color: #014AA6;
+}
+.maybelogo {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 30px;
+}
+.threehead{
+    display: flex;
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.threehead a {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin: 0 30px;
+}
+
+.header-right {
+    margin-left: 1000px;
+}
+
+.threehead a:hover, .threehead a:active {
+    text-decoration: underline;
+}
+
+.card-myskills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 100px;
+    margin-top: 250px;
+}
+
+.card{
+    width: 325px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+.img-card1 img{
+    width: 350px;
+    height: 300px;
+}
+
+.img-card2 img{
+    width: 350px;
+    height: 300px;
+}
+
+.card-myskills h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.card-myskills p{
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10em;
+    background-color: #E7E6E2;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+.about-img img{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    border-radius: 10%;
+}
+
+.about-content h3{
+    text-align: left;
+    font-size: 30px;
+}
+
+.about-content p{
+    font-size: 20px;
+    margin: 2em 0 3em;
+}
