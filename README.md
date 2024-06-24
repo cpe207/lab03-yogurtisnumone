@@ -6,4 +6,4 @@
 
 
 <strong>นางสาวกชภัส พันธ์ทอง 660612137 </strong> <br>
-<strong>GITHUB PAGE URL : </strong>
+<strong>GITHUB PAGE URL : https://cpe207.github.io/lab03-yogurtisnumone/</strong>
